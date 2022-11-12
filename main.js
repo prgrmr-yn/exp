@@ -15,34 +15,34 @@ sub.addEventListener('click', (e)=>{
 
 
 
-//extras for making options for html file
-const suburbs = [
-  'dandenong', 'kul', 'vayswater', 'kilsyth'
-]
+// //extras for making options for html file
+// const suburbs = [
+//   'dandenong', 'kul', 'vayswater', 'kilsyth'
+// ]
 
-let string = '';
+// let string = '';
+// // for (const suburb of suburbs) {
+// //   const detail= `<option value="${suburb}">${suburb}</option>`
+// //   string += detail + '\n'
+// // }
+// ////string constails the option data
+
+// //
 // for (const suburb of suburbs) {
-//   const detail= `<option value="${suburb}">${suburb}</option>`
-//   string += detail + '\n'
+//   const input = prompt(suburb)
+//   let num = parseInt(input)
+//   console.log(typeof(num));
+//   console.log(num);
+
+//   if(!num) {
+//     if() {
+
+//     }
+//     string += `"${suburb}": ${input},\n`
+//   }else{
+//     string += `"${suburb}": ${num},\n`
+//   }
 // }
-////string constails the option data
-
-//
-for (const suburb of suburbs) {
-  const input = prompt(suburb)
-  let num = parseInt(input)
-  console.log(typeof(num));
-  console.log(num);
-
-  if(!num) {
-    if() {
-
-    }
-    string += `"${suburb}": ${input},\n`
-  }else{
-    string += `"${suburb}": ${num},\n`
-  }
-}
-console.log(`{
-  ${string}
-}`);
+// console.log(`{
+//   ${string}
+// }`);
