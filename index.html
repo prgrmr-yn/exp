@@ -8,15 +8,17 @@
   <title>Check zones</title>
 </head>
 <body>
-<input type="text" name="search" id="search" placeholder="Enter suburb here" list="search-dandy"><br>
-<input type="submit" name="submit" id="submit">
-<datalist id ="search-dandy" form-action="#">
-  <option value="dandenong">dandenong</option>
-  <option value="kilsyth">kilsyth</option>
-<!-- add more options here -->
-</datalist>
-<p id ="big" class="big"></p>
-<p id="detail"></p>
+  <div class="container">
+    <input type="text" name="search" id="search" placeholder="Enter suburb here" list="search-dandy"><br>
+    <input type="submit" name="submit" id="submit" value="Search">
+    <datalist id ="search-dandy" form-action="#" >
+      <option value="dandenong">dandenong</option>
+      <option value="kilsyth">kilsyth</option>
+    <!-- add more options here -->
+    </datalist>
+    <p id ="big" class="big">...</p>
+    <p id="detail"></p>
+  </div>
 <script type="module" src="main.js"></script>
 </body>
 </html>
