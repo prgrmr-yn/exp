@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10;
+}
+
+.container{
+  background: #e5e5e5;
+  display: flex;
+/*   justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width :70%;
+  border-radius:6px;
+  min-height: 100vh;
+}
+
+input[type=text], input[type=submit]{
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+  width: 90%;
+  min-height: 30px;
+  display: block;
+  border: 3px solid #3E6EB6;
+  border-radius: 10px;
+  box-shadow: -2px -2px 5px 1px grey
+}
+input[type=submit]{
+  background: #243742;
+  width: 35%;
+  color: #edf2f4;
+  margin-top: 0;
+
+}
+input[type=submit]:active{
+  background: #334D5C;
+  box-shadow: 2px 3px 5px 1px grey;
+}
+p{
+  width: 90%;
+  margin-bottom: 8px;
+  background-color: #495057;
+  text-align: center;
+  border-radius:10px;
+  color: lightgreen;
+}
+
+#big{
+  min-height:5vh;
+  font-size: 27px;
+  font-family: 'Secular One', sans-serif;
+}
+
+#detail{
+  padding: 10px;
+  min-height: 60vh;
+}

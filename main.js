@@ -7,8 +7,10 @@ const detail = document.getElementById('detail')
 
 sub.addEventListener('click', (e)=>{
   e.preventDefault()
-  const sValue = suburbsDandy[inp.value.toLowerCase()];
-  big.innerHTML = `Bay ${sValue}`
+
+  const uValue = inp.value.toUpperCase()
+  const lValue = suburbsDandy[inp.value.toLowerCase()];
+  big.innerHTML = `${uValue} -- ${lValue}`
   detail.innerText = 'detail';
   inp.value = ''
 })
