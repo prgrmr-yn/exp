@@ -5,15 +5,28 @@ const sub = document.getElementById('submit');
 const big = document.getElementById('big')
 const detail = document.getElementById('detail')
 
-sub.addEventListener('click', (e)=>{
-  e.preventDefault()
-
+function renderHtml() {
   const uValue = inp.value.toUpperCase()
   const lValue = suburbsDandy[inp.value.toLowerCase()];
   big.innerHTML = `${uValue} -- ${lValue}`
   detail.innerText = 'detail';
   inp.value = ''
+}
+
+
+
+inp.addEventListener('keyup', e =>{
+  if (e.key === 'Enter') {
+    renderHtml()
+  }
 })
+
+sub.addEventListener('click', (e)=>{
+  e.preventDefault()
+  renderHtml()
+})
+
+
 
 
 
