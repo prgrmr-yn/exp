@@ -1,4 +1,4 @@
-import { suburbsDandy } from "./module.js";
+import { suburbsDandy, suburbs } from "./module.js";
 console.log(suburbsDandy);
 let inp = document.getElementById('search');
 const sub = document.getElementById('submit');
@@ -28,7 +28,7 @@ sub.addEventListener('click', (e)=>{
 
 
 
-
+console.log(suburbs[39])
 
 // //extras for making options for html file
 // const suburbs = [
@@ -36,10 +36,11 @@ sub.addEventListener('click', (e)=>{
 // ]
 
 // let string = '';
-// // for (const suburb of suburbs) {
-// //   const detail= `<option value="${suburb}">${suburb}</option>`
-// //   string += detail + '\n'
-// // }
+// for (const suburb of suburbs) {
+//   const detail= `<option value="${suburb}">${suburb}</option>`
+//   string += detail + '\n'
+
+// }
 // ////string constails the option data
 
 // //
