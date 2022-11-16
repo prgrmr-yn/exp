@@ -17,7 +17,7 @@ function renderHtml() {
   inp.value = ''
 }
 
-
+console.log('hi');
 
 inp.addEventListener('keyup', e =>{
   if (e.key === 'Enter') {
