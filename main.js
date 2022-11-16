@@ -1,15 +1,19 @@
-import { suburbsDandy, suburbs } from "./module.js";
-console.log(suburbsDandy);
+import { suburbsDandy} from "./module.js";
 let inp = document.getElementById('search');
 const sub = document.getElementById('submit');
 const big = document.getElementById('big')
 const detail = document.getElementById('detail')
+const bunnings = document.getElementById('bunnings')
 
 function renderHtml() {
   const uValue = inp.value.toUpperCase()
-  const lValue = suburbsDandy[inp.value.toLowerCase()];
-  big.innerHTML = `${uValue} -- ${lValue}`
-  detail.innerText = 'detail';
+  const lValue = suburbsDandy[inp.value.toLowerCase()]["bay"];
+  big.innerHTML = `<span class ='heading'>BAY</span>${uValue}  ··› ${lValue}`
+  bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>`
+  if(suburbsDandy[inp.value]['detail'].hasOwnProperty("timeslots")){
+    const details = suburbsDandy[inp.value.toLowerCase()].detail.timeslots[0];
+    detail.innerHTML = `<span class ='heading'>TIMESLOTS</span><br>${details}`;
+  }
   inp.value = ''
 }
 
@@ -25,10 +29,6 @@ sub.addEventListener('click', (e)=>{
   e.preventDefault()
   renderHtml()
 })
-
-
-
-console.log(suburbs[39])
 
 // //extras for making options for html file
 // const suburbs = [

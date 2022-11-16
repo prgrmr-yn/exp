@@ -40,7 +40,7 @@ input[type=submit]:active{
   background: #334D5C;
   box-shadow: 2px 3px 5px 1px grey;
 }
-p{
+.p{
   width: 90%;
   margin-bottom: 8px;
   background-color: #495057;
@@ -49,7 +49,7 @@ p{
   color: lightgreen;
 }
 
-#big{
+#big, #bunnings{
   min-height:5vh;
   font-size: 27px;
   font-family: 'Secular One', sans-serif;
@@ -57,5 +57,12 @@ p{
 
 #detail{
   padding: 10px;
-  min-height: 60vh;
+  min-height: 40vh;
 }
+
+.heading {
+  display: block;
+  text-align: center;
+  color: rgb(249, 102, 190);
+}
+
