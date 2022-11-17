@@ -7,17 +7,19 @@ const bunnings = document.getElementById('bunnings')
 
 function renderHtml() {
   const uValue = inp.value.toUpperCase()
-  const lValue = suburbsDandy[inp.value.toLowerCase()]["bay"];
-  big.innerHTML = `<span class ='heading'>BAY</span>${uValue}  ··› ${lValue}`
-  bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>`
+  const lValue = suburbsDandy[inp.value.toLowerCase()];
+  big.innerHTML = `<span class ='heading'>BAY</span>${uValue}  ··› ${lValue["bay"]}`
+  if (suburbsDandy[inp.value].hasOwnProperty('bunnings')) {
+    console.log('not found');
+    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>${lValue['bunnings']}`
+  }
   if(suburbsDandy[inp.value]['detail'].hasOwnProperty("timeslots")){
     const details = suburbsDandy[inp.value.toLowerCase()].detail.timeslots[0];
     detail.innerHTML = `<span class ='heading'>TIMESLOTS</span><br>${details}`;
   }
   inp.value = ''
 }
-
-console.log('hi');
+console.log('success');
 
 inp.addEventListener('keyup', e =>{
   if (e.key === 'Enter') {

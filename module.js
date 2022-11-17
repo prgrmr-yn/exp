@@ -192,7 +192,8 @@ export const suburbsDandy = {
      }
   },
   "box hill":{
-     "bay":12,
+    "bay":12,
+    "bunnings": 7,
      "detail":{
         "timeslots":["kitchen warehouse"],
         "notes":{
