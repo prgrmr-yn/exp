@@ -8,14 +8,26 @@ const bunnings = document.getElementById('bunnings')
 function renderHtml() {
   const uValue = inp.value.toUpperCase()
   const lValue = suburbsDandy[inp.value.toLowerCase()];
-  big.innerHTML = `<span class ='heading'>BAY</span>${uValue}  ··› ${lValue["bay"]}`
-  if (suburbsDandy[inp.value].hasOwnProperty('bunnings')) {
-    console.log('not found');
-    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>${lValue['bunnings']}`
+
+  if (!lValue) {
+    console.log('cant fiind');
+    document.querySelector('#search-dandy').innerHTML = 'not found'
+    return inp.value = '';
   }
-  if(suburbsDandy[inp.value]['detail'].hasOwnProperty("timeslots")){
-    const details = suburbsDandy[inp.value.toLowerCase()].detail.timeslots[0];
-    detail.innerHTML = `<span class ='heading'>TIMESLOTS</span><br>${details}`;
+  big.innerHTML = `<span class ='heading'>BAY</span>${uValue}  ··› ${lValue["bay"]}`
+  if (lValue['bunnings']) {
+    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>True`
+  }else {
+    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>False`
+  }
+  if(suburbsDandy[inp.value]["timeslot"]){
+    let x = '';
+    suburbsDandy[inp.value]["timeslots"].forEach(el => {
+      x += `${el.toUpperCase()} <br>`
+    });
+    detail.innerHTML = `<span class ='heading'>TIMESLOTS</span><br>${x}`
+  } else {
+    detail.innerHTML = `<span class ='heading'>TIMESLOTS</span>`
   }
   inp.value = ''
 }
@@ -23,7 +35,8 @@ console.log('success');
 
 inp.addEventListener('keyup', e =>{
   if (e.key === 'Enter') {
-    renderHtml()
+    e.preventDefault();
+    renderHtml();
   }
 })
 
@@ -31,36 +44,4 @@ sub.addEventListener('click', (e)=>{
   e.preventDefault()
   renderHtml()
 })
-
-// //extras for making options for html file
-// const suburbs = [
-//   'dandenong', 'kul', 'vayswater', 'kilsyth'
-// ]
-
-// let string = '';
-// for (const suburb of suburbs) {
-//   const detail= `<option value="${suburb}">${suburb}</option>`
-//   string += detail + '\n'
-
-// }
-// ////string constails the option data
-
-// //
-// for (const suburb of suburbs) {
-//   const input = prompt(suburb)
-//   let num = parseInt(input)
-//   console.log(typeof(num));
-//   console.log(num);
-
-//   if(!num) {
-//     if() {
-
-//     }
-//     string += `"${suburb}": ${input},\n`
-//   }else{
-//     string += `"${suburb}": ${num},\n`
-//   }
-// }
-// console.log(`{
-//   ${string}
-// }`);
+  

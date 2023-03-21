@@ -2,7 +2,7 @@
   "@context": "http://schema.org/",
   "@type": "Company",
   "name": "bexp",
-  "jobTitle": "Professor",
+  "jobTitle": "Process suburb",
   "description": "A website helps you tracking where the pallet is going",
   "url": "https://bexp.onrender.com/"
 }
