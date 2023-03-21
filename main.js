@@ -11,14 +11,16 @@ function renderHtml() {
 
   if (!lValue) {
     console.log('cant fiind');
-    document.querySelector('#search-dandy').innerHTML = 'not found'
+    big.innerHTML = `<span class ='heading'>NOT FOUND</span>`
+    bunnings.innerHTML = `Please raise an issue`
+    detail.innerHTML = ``
     return inp.value = '';
   }
-  big.innerHTML = `<span class ='heading'>BAY</span>${uValue}  ··› ${lValue["bay"]}`
+  big.innerHTML = `<span class ='heading'>BAY</span>${uValue}  --› ${lValue["bay"]}`
   if (lValue['bunnings']) {
-    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>True`
+    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>✅`
   }else {
-    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>False`
+    bunnings.innerHTML = `<span class ='heading'>BUNNINGS</span>❌`
   }
   if(suburbsDandy[inp.value]["timeslot"]){
     let x = '';
@@ -27,7 +29,7 @@ function renderHtml() {
     });
     detail.innerHTML = `<span class ='heading'>TIMESLOTS</span><br>${x}`
   } else {
-    detail.innerHTML = `<span class ='heading'>TIMESLOTS</span>`
+    detail.innerHTML = `<span class ='heading'>TIMESLOTS</span><br>❌`
   }
   inp.value = ''
 }
@@ -44,4 +46,10 @@ sub.addEventListener('click', (e)=>{
   e.preventDefault()
   renderHtml()
 })
-  
+
+
+window.addEventListener('keyup', e => {
+  if (e.key === '/') {
+    document.getElementById('search').focus()
+  }
+})

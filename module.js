@@ -1894,7 +1894,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "oakleigh": {
     "suburb name": "oakleigh",

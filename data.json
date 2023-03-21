@@ -429,7 +429,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "braeside": {
     "suburb name": "braeside",
@@ -633,7 +633,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "caulfield": {
     "suburb name": "caulfield",
@@ -657,7 +657,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "chelsea": {
     "suburb name": "chelsea",
@@ -741,7 +741,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "cranbourne": {
     "suburb name": "cranbourne",
@@ -753,7 +753,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "crib point": {
     "suburb name": "crib point",
@@ -813,7 +813,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "dalmore": {
     "suburb name": "dalmore",
@@ -1088,7 +1088,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "frankston north": {
     "suburb name": "frankston north",
@@ -1268,7 +1268,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "hawthorn": {
     "suburb name": "hawthorn",
@@ -1412,7 +1412,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "kilsyth": {
     "suburb name": "kilsyth",
@@ -1509,7 +1509,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "lynbrook": {
     "suburb name": "lynbrook",
@@ -1894,7 +1894,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "oakleigh": {
     "suburb name": "oakleigh",
@@ -1906,7 +1906,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "officer": {
     "suburb name": "officer",
@@ -1942,7 +1942,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "pakenham upper": {
     "suburb name": "pakenham upper",
@@ -2194,7 +2194,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "seaford": {
     "suburb name": "seaford",
