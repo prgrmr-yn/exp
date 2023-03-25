@@ -2852,6 +2852,13 @@ const inputBox = document.getElementById('input-box');
 const timeslots = document.getElementById('timeslots');
 let activeIndex = -1;
 
+inputBox.addEventListener('click', e=>{
+  e.preventDefault()
+  if (inputBox.value === ''){
+    timeslots.innerHTML = '';
+  }
+})
+
 inputBox.onkeyup = (e) => {
   console.log(e.key);
   if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
@@ -2903,6 +2910,12 @@ function displayList(result) {
   resultBox.innerHTML = `<ul> ${content.join('')} </ul>`
 }
 
+window.addEventListener('click' ,e => {
+  if (e.target.className === 'result-item'){
+    console.log(e.target.childNodes[1].click());
+  }
+})
+
 function selectInput(list) {
 
   inputBox.value = list.innerHTML;
@@ -2913,11 +2926,12 @@ function selectInput(list) {
 function renderTimeslots(suburb){
   const res = suburbsDandy[suburb].timeslots;
     resultBox.innerHTML = '';
+    console.log(res[0]);
+
     if (!res[0]){
-      console.log('its null');
       res[0] = 'No timeslots for this area'
-    }else {
-      res.unshift('TIMESLOTS')
+    }else  if (res[0] !== 'TIMESLOTS'){
+        res.unshift('TIMESLOTS')
     }
     console.log(res);
     let tSlots = res.map((el)=> {
@@ -2945,6 +2959,8 @@ const setActiveIndex = (index) => {
   });
   items[activeIndex].classList.add('active');
 };
+
+
 
 inputBox.addEventListener('keydown', (event) => {
   const items = resultBox.getElementsByClassName("result-item");
