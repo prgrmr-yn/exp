@@ -1059,8 +1059,8 @@ const suburbsDandy = {
     },
     "bunnings": false
   },
-  "fentree gully": {
-    "suburb name": "fentree gully",
+  "ferntree gully": {
+    "suburb name": "ferntree gully",
     "bay": "4",
     "timeslot": false,
     "timeslots": [
@@ -1312,6 +1312,18 @@ const suburbsDandy = {
     "bunnings": false
   },
   "hawthorn east": {
+    "suburb name": "hawthorn east",
+    "bay": "2",
+    "timeslot": false,
+    "timeslots": [
+      null
+    ],
+    "details": {
+      "notes": []
+    },
+    "bunnings": false
+  },
+  "hawthorn west": {
     "suburb name": "hawthorn east",
     "bay": "2",
     "timeslot": false,
@@ -2733,7 +2745,6 @@ const suburbs = [
   "hampton park",
   "harkaway",
   "hastings",
-  "hawthorn",
   "hawthorn",
   "hawthorn east",
   "hawthorn west",
