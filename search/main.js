@@ -778,7 +778,7 @@ const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "croydon hills": {
     "suburb name": "croydon hills",
@@ -1436,7 +1436,7 @@ const suburbsDandy = {
     "bay": "18",
     "timeslot": true,
     "timeslots": [
-      null
+      'bam', 'clifford hallam', 'symbion', 'taylors wine'
     ],
     "details": {
       "notes": []
@@ -1658,7 +1658,7 @@ const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "merricks": {
     "suburb name": "merricks",
@@ -2139,7 +2139,7 @@ const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "rowville": {
     "suburb name": "rowville",
@@ -2216,9 +2216,9 @@ const suburbsDandy = {
   "scoresby": {
     "suburb name": "scoresby",
     "bay": "4",
-    "timeslot": false,
+    "timeslot": true,
     "timeslots": [
-      null
+      'alloys'
     ],
     "details": {
       "notes": []
@@ -2499,7 +2499,7 @@ const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "wantirna": {
     "suburb name": "wantirna",
@@ -2850,7 +2850,13 @@ const suburbs = [
 const resultBox = document.querySelector('.result-box');
 const inputBox = document.getElementById('input-box');
 const timeslots = document.getElementById('timeslots');
+const refreshIcon = document.querySelector('.fa-sharp')
 let activeIndex = -1;
+
+
+refreshIcon.addEventListener('click', ()=> {
+  window.location.reload();
+})
 
 inputBox.addEventListener('click', e=>{
   e.preventDefault()

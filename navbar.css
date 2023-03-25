@@ -1,0 +1,45 @@
+/* navbar start */
+.nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: rgb(62, 62, 62);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  border-radius: 5px;
+  background-color: rgb(21, 21, 21);
+}
+
+/*Blur Hover*/
+.nav ul:hover li {
+  /* filter: blur(2px); */
+}
+
+.nav ul li:hover {
+  opacity: 1;
+  /* filter: blur(0px); */
+}
+
+ul li .nav-items {
+  background: rgb(52, 42, 52);
+  color: limegreen;
+}
+/* navbar end */

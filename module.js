@@ -777,7 +777,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "croydon hills": {
     "suburb name": "croydon hills",
@@ -829,7 +829,7 @@ export const suburbsDandy = {
   },
   "dandenong": {
     "suburb name": "dandenong",
-    "bay": "19, 20, 21",
+    "bay": "19-21",
     "timeslot": true,
     "timeslots": [
       "aldi",
@@ -854,10 +854,23 @@ export const suburbsDandy = {
   },
   "dandenong north": {
     "suburb name": "dandenong north",
-    "bay": "19, 20, 21",
-    "timeslot": false,
+    "bay": "19-21",
+    "timeslot": true,
     "timeslots": [
-      null
+      "aldi",
+      "api",
+      "atlas",
+      "baby bunting",
+      "bam",
+      "bunzyl",
+      "cozmax nbt",
+      "keeki",
+      "kogan",
+      "korimco",
+      "qls logistics",
+      "reece 5 pallets",
+      "taylors wine",
+      "woolworths"
     ],
     "details": {
       "notes": []
@@ -866,13 +879,28 @@ export const suburbsDandy = {
   },
   "dandenong south": {
     "suburb name": "dandenong south",
-    "bay": "19, 20, 21",
+    "bay": "19-21",
     "timeslot": true,
-    "timeslots": [],
+    "timeslots": [
+      "aldi",
+      "api",
+      "atlas",
+      "baby bunting",
+      "bam",
+      "bunzyl",
+      "cozmax nbt",
+      "keeki",
+      "kogan",
+      "korimco",
+      "qls logistics",
+      "reece 5 pallets",
+      "taylors wine",
+      "woolworths"
+    ],
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "devon meadows": {
     "suburb name": "devon meadows",
@@ -1405,9 +1433,9 @@ export const suburbsDandy = {
   "keysborough": {
     "suburb name": "keysborough",
     "bay": "18",
-    "timeslot": false,
+    "timeslot": true,
     "timeslots": [
-      null
+      'bam', 'clifford hallam', 'symbion', 'taylors wine'
     ],
     "details": {
       "notes": []
@@ -1629,7 +1657,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "merricks": {
     "suburb name": "merricks",
@@ -2110,7 +2138,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "rowville": {
     "suburb name": "rowville",
@@ -2187,9 +2215,9 @@ export const suburbsDandy = {
   "scoresby": {
     "suburb name": "scoresby",
     "bay": "4",
-    "timeslot": false,
+    "timeslot": true,
     "timeslots": [
-      null
+      'alloys'
     ],
     "details": {
       "notes": []
@@ -2470,7 +2498,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "wantirna": {
     "suburb name": "wantirna",

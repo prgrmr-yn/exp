@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
-body{
+.body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10;
+  margin: 5px;
+
 }
 
 .container{
   background: #e5e5e5;
   display: flex;
-/*   justify-content: center; */
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   width :70%;
   border-radius:6px;
   min-height: 100vh;
+  margin-top: 30px;
 }
 
-input[type=text], input[type=submit]{
+.container input[type=text], .container input[type=submit]{
   margin-top: 10px;
   text-align: center;
   color: black;
@@ -30,18 +32,18 @@ input[type=text], input[type=submit]{
   box-shadow: -2px -2px 5px 1px grey
 }
 
-input:focus::placeholder{
+.container input:focus::placeholder{
   color: transparent;
 }
 
-input[type=submit]{
+.container input[type=submit]{
   background: #243742;
   width: 35%;
   color: #edf2f4;
   margin-top: 0;
 
 }
-input[type=submit]:active{
+.container input[type=submit]:active{
   background: #334D5C;
   box-shadow: 2px 3px 5px 1px grey;
 }
