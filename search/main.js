@@ -1,3 +1,4 @@
+
 const suburbsDandy = {
   "armadale": {
     "suburb name": "armadale",
@@ -881,7 +882,22 @@ const suburbsDandy = {
     "suburb name": "dandenong south",
     "bay": "19-21",
     "timeslot": true,
-    "timeslots": [],
+    "timeslots": [
+      "aldi",
+      "api",
+      "atlas",
+      "baby bunting",
+      "bam",
+      "bunzyl",
+      "cozmax nbt",
+      "keeki",
+      "kogan",
+      "korimco",
+      "qls logistics",
+      "reece 5 pallets",
+      "taylors wine",
+      "woolworths"
+    ],
     "details": {
       "notes": []
     },
@@ -2833,8 +2849,14 @@ const suburbs = [
 
 const resultBox = document.querySelector('.result-box');
 const inputBox = document.getElementById('input-box');
+const timeslots = document.getElementById('timeslots');
+let activeIndex = -1;
 
 inputBox.onkeyup = (e) => {
+  console.log(e.key);
+  if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+    return
+  }
   let result = [];
   let input = inputBox.value.toLowerCase();
   if (input.length) {
@@ -2844,8 +2866,6 @@ inputBox.onkeyup = (e) => {
     console.log(result);
   }
   displayList(result)
-
-  
 
   if (!result.length) {
     resultBox.innerHTML = '';
@@ -2886,22 +2906,69 @@ function displayList(result) {
 function selectInput(list) {
 
   inputBox.value = list.innerHTML;
-  let input = inputBox.value.toLowerCase();
-  resultBox.innerHTML = '';
-  console.log(input);
-  document.getElementById('timeslots').innerHTML = suburbsDandy[input].timeslots;
+  let suburb = inputBox.value.toLowerCase();
+  renderTimeslots(suburb)
 }
 
-window.addEventListener('keyup', (e)=> {
-  if (e.key === '\\'){
-    document.querySelector('#input-box').value = ''
-    console.log('hello');
-  }
-  if(e.key === 'Enter') {
-
-    let input = inputBox.value.toLowerCase();
-    const res = suburbsDandy[input].timeslots;
+function renderTimeslots(suburb){
+  const res = suburbsDandy[suburb].timeslots;
     resultBox.innerHTML = '';
-    document.getElementById('timeslots').innerHTML =res;
+    if (!res[0]){
+      console.log('its null');
+      res[0] = 'No timeslots for this area'
+    }else {
+      res.unshift('TIMESLOTS')
+    }
+    console.log(res);
+    let tSlots = res.map((el)=> {
+      let capitalizeEl = `${el[0].toUpperCase()}${el.slice(1)}`
+      return `<li>${capitalizeEl}</li>`
+    })
+    timeslots.innerHTML = `<ul> ${tSlots.join('')}</ul>`;
+    inputBox.value = '';
+    activeIndex = -1
+}
+
+
+
+const setActiveIndex = (index) => {
+  const items = resultBox.getElementsByClassName("result-item");
+  if (index < 0) {
+    index = items.length - 1;
   }
-})
+  if (index >= items.length) {
+    index = 0;
+  }
+  activeIndex = index;
+  Array.from(items).forEach((item) => {
+    item.classList.remove('active');
+  });
+  items[activeIndex].classList.add('active');
+};
+
+inputBox.addEventListener('keydown', (event) => {
+  const items = resultBox.getElementsByClassName("result-item");
+  if (items.length > 0) {
+    switch (event.key) {
+      case 'ArrowUp':
+        event.preventDefault();
+        setActiveIndex(activeIndex - 1);
+        break;
+      case 'ArrowDown':
+        event.preventDefault();
+        setActiveIndex(activeIndex + 1);
+        break;
+      case 'Enter':
+        event.preventDefault();
+
+        inputBox.value = items[activeIndex].textContent
+        let input = inputBox.value.toLowerCase();
+        let suburb = input.trim()
+                         .slice(0,input.trim()
+                         .lastIndexOf(' '))
+                         .trim()
+        renderTimeslots(suburb)
+        break;
+    }
+  }
+});
