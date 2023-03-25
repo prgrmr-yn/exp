@@ -1,4 +1,5 @@
-export const suburbsDandy = {
+
+const suburbsDandy = {
   "armadale": {
     "suburb name": "armadale",
     "bay": "1",
@@ -2845,3 +2846,151 @@ const suburbs = [
   "windsor",
   "wonga park",
 ];
+
+const resultBox = document.querySelector('.result-box');
+const inputBox = document.getElementById('input-box');
+const timeslots = document.getElementById('timeslots');
+const refreshIcon = document.querySelector('.fa-sharp')
+let activeIndex = -1;
+
+
+refreshIcon.addEventListener('click', ()=> {
+  window.location.reload();
+})
+
+inputBox.addEventListener('click', e=>{
+  e.preventDefault()
+  if (inputBox.value === ''){
+    timeslots.innerHTML = '';
+  }
+})
+
+inputBox.onkeyup = (e) => {
+  console.log(e.key);
+  if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+    return
+  }
+  let result = [];
+  let input = inputBox.value.toLowerCase();
+  if (input.length) {
+    result = suburbs.filter((keyword) => {
+      return keyword.toLowerCase().startsWith(input)
+    })
+    console.log(result);
+  }
+  displayList(result)
+
+  if (!result.length) {
+    resultBox.innerHTML = '';
+  }
+
+}
+
+function displayList(result) {
+
+  const content = result.map((listItem) => {
+    let bunnings = '';
+    let timeslot = '';
+    let bay = '';
+
+      if (suburbsDandy[listItem].bunnings){
+        bunnings = '<li><i class="fa-solid fa-b"></i></li>'
+      }
+      if (suburbsDandy[listItem].timeslot){
+        timeslot = '<li><i class="fa-solid fa-t"></i></li>'
+      }
+      if (suburbsDandy[listItem].bay){
+        bay = '<li class=bay>'+ suburbsDandy[listItem].bay + '</li>'
+      }
+
+    return `<div class="result-item">
+    <li onclick=selectInput(this) >${listItem}</li>
+    <div class="additional-info-box">
+
+      ${bay}
+      ${timeslot}
+      ${bunnings}
+    </div>
+  </div>`
+  })
+  resultBox.innerHTML = `<ul> ${content.join('')} </ul>`
+}
+
+window.addEventListener('click' ,e => {
+  if (e.target.className === 'result-item'){
+    console.log(e.target.childNodes[1].click());
+  }
+})
+
+function selectInput(list) {
+
+  inputBox.value = list.innerHTML;
+  let suburb = inputBox.value.toLowerCase();
+  renderTimeslots(suburb)
+}
+
+function renderTimeslots(suburb){
+  const res = suburbsDandy[suburb].timeslots;
+    resultBox.innerHTML = '';
+    console.log(res[0]);
+
+    if (!res[0]){
+      res[0] = 'No timeslots for this area'
+    }else  if (res[0] !== 'TIMESLOTS'){
+        res.unshift('TIMESLOTS')
+    }
+    console.log(res);
+    let tSlots = res.map((el)=> {
+      let capitalizeEl = `${el[0].toUpperCase()}${el.slice(1)}`
+      return `<li>${capitalizeEl}</li>`
+    })
+    timeslots.innerHTML = `<ul> ${tSlots.join('')}</ul>`;
+    inputBox.value = '';
+    activeIndex = -1
+}
+
+
+
+const setActiveIndex = (index) => {
+  const items = resultBox.getElementsByClassName("result-item");
+  if (index < 0) {
+    index = items.length - 1;
+  }
+  if (index >= items.length) {
+    index = 0;
+  }
+  activeIndex = index;
+  Array.from(items).forEach((item) => {
+    item.classList.remove('active');
+  });
+  items[activeIndex].classList.add('active');
+};
+
+
+
+inputBox.addEventListener('keydown', (event) => {
+  const items = resultBox.getElementsByClassName("result-item");
+  if (items.length > 0) {
+    switch (event.key) {
+      case 'ArrowUp':
+        event.preventDefault();
+        setActiveIndex(activeIndex - 1);
+        break;
+      case 'ArrowDown':
+        event.preventDefault();
+        setActiveIndex(activeIndex + 1);
+        break;
+      case 'Enter':
+        event.preventDefault();
+
+        inputBox.value = items[activeIndex].textContent
+        let input = inputBox.value.toLowerCase();
+        let suburb = input.trim()
+                         .slice(0,input.trim()
+                         .lastIndexOf(' '))
+                         .trim()
+        renderTimeslots(suburb)
+        break;
+    }
+  }
+});
