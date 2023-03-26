@@ -1,838 +1,699 @@
-
 const suburbsDandy = {
-  "armadale": {
+  armadale: {
     "suburb name": "armadale",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "arthurs seat": {
     "suburb name": "arthurs seat",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "ashburtun": {
+  ashburtun: {
     "suburb name": "ashburtun",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "ashwood": {
+  ashwood: {
     "suburb name": "ashwood",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "aspendale": {
+  aspendale: {
     "suburb name": "aspendale",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "aspendale garden": {
     "suburb name": "aspendale garden",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "auburn": {
+  auburn: {
     "suburb name": "auburn",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "auburn south": {
     "suburb name": "auburn south",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "balaclava": {
+  balaclava: {
     "suburb name": "balaclava",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "balnarring": {
+  balnarring: {
     "suburb name": "balnarring",
-    "bay": "17",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "17",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "balnarring beach": {
     "suburb name": "balnarring beach",
-    "bay": "17",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "17",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "balwyn": {
+  balwyn: {
     "suburb name": "balwyn",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "balwyn east": {
     "suburb name": "balwyn east",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "balwyn north": {
     "suburb name": "balwyn north",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "bangholme": {
+  bangholme: {
     "suburb name": "bangholme",
-    "bay": "21",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "21",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "baxter": {
+  baxter: {
     "suburb name": "baxter",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "bayswater": {
+  bayswater: {
     "suburb name": "bayswater",
-    "bay": "3",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "3",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "bayswater north": {
     "suburb name": "bayswater north",
-    "bay": "3",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "3",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "beaconsfield": {
+  beaconsfield: {
     "suburb name": "beaconsfield",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "beaumaris": {
+  beaumaris: {
     "suburb name": "beaumaris",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "belgrave": {
+  belgrave: {
     "suburb name": "belgrave",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "belgrave heights": {
     "suburb name": "belgrave heights",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "belgrave south": {
     "suburb name": "belgrave south",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "bentleigh": {
+  bentleigh: {
     "suburb name": "bentleigh",
-    "bay": "29d",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29d",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "bentleigh east": {
     "suburb name": "bentleigh east",
-    "bay": "29d",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29d",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "berwick": {
+  berwick: {
     "suburb name": "berwick",
-    "bay": "22",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "22",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "bittern": {
+  bittern: {
     "suburb name": "bittern",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "black rock": {
     "suburb name": "black rock",
-    "bay": "29e",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29e",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "blackburn": {
+  blackburn: {
     "suburb name": "blackburn",
-    "bay": "12",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "12",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "blairgowrie": {
+  blairgowrie: {
     "suburb name": "blairgowrie",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "blind bight": {
     "suburb name": "blind bight",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "bonbeach": {
+  bonbeach: {
     "suburb name": "bonbeach",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "boneo": {
+  boneo: {
     "suburb name": "boneo",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "boronia": {
+  boronia: {
     "suburb name": "boronia",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "botanic ridge": {
     "suburb name": "botanic ridge",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "box hill": {
     "suburb name": "box hill",
-    "bay": "12",
-    "timeslot": true,
-    "timeslots": [
-      "kitchen warehouse"
-    ],
-    "details": {
-      "notes": []
+    bay: "12",
+    timeslot: true,
+    timeslots: ["kitchen warehouse"],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "braeside": {
+  braeside: {
     "suburb name": "braeside",
-    "bay": "29a",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29a",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "brentwood": {
+  brentwood: {
     "suburb name": "brentwood",
-    "bay": "11",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "brighton": {
+  brighton: {
     "suburb name": "brighton",
-    "bay": "29e",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29e",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "bulleeen": {
+  bulleeen: {
     "suburb name": "bulleeen",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "burwood": {
+  burwood: {
     "suburb name": "burwood",
-    "bay": "12",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "12",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "camberwell": {
+  camberwell: {
     "suburb name": "camberwell",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "camberwell east": {
     "suburb name": "camberwell east",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "camberwell north": {
     "suburb name": "camberwell north",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "camberwell south": {
     "suburb name": "camberwell south",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "cannons creek": {
     "suburb name": "cannons creek",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "canterbury": {
+  canterbury: {
     "suburb name": "canterbury",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "cape shanck": {
     "suburb name": "cape shanck",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "capel sound": {
     "suburb name": "capel sound",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "cardinia": {
+  cardinia: {
     "suburb name": "cardinia",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "carnegie": {
+  carnegie: {
     "suburb name": "carnegie",
-    "bay": "29d",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29d",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "carrum": {
+  carrum: {
     "suburb name": "carrum",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "carrum downs": {
     "suburb name": "carrum downs",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "caulfield": {
+  caulfield: {
     "suburb name": "caulfield",
-    "bay": "29d",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29d",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "chadstone": {
+  chadstone: {
     "suburb name": "chadstone",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "chelsea": {
+  chelsea: {
     "suburb name": "chelsea",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "chelsea heights": {
     "suburb name": "chelsea heights",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "cheltenham": {
+  cheltenham: {
     "suburb name": "cheltenham",
-    "bay": "29b",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29b",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "chirnside park": {
     "suburb name": "chirnside park",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "clarinda": {
+  clarinda: {
     "suburb name": "clarinda",
-    "bay": "9",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "9",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "clayton": {
+  clayton: {
     "suburb name": "clayton",
-    "bay": "9",
-    "timeslot": true,
-    "timeslots": [
-      "annex"
-    ],
-    "details": {
-      "notes": []
+    bay: "9",
+    timeslot: true,
+    timeslots: ["annex"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "clyde": {
+  clyde: {
     "suburb name": "clyde",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "cranbourne": {
+  cranbourne: {
     "suburb name": "cranbourne",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
   "crib point": {
     "suburb name": "crib point",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "croydon": {
+  croydon: {
     "suburb name": "croydon",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
   "croydon hills": {
     "suburb name": "croydon hills",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "croydon north": {
     "suburb name": "croydon north",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "croydon south": {
     "suburb name": "croydon south",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "dalmore": {
+  dalmore: {
     "suburb name": "dalmore",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "dandenong": {
+  dandenong: {
     "suburb name": "dandenong",
-    "bay": "19-21",
-    "timeslot": true,
-    "timeslots": [
+    bay: "19-21",
+    timeslot: true,
+    timeslots: [
       "aldi",
       "api",
       "atlas",
@@ -846,18 +707,18 @@ const suburbsDandy = {
       "qls logistics",
       "reece 5 pallets",
       "taylors wine",
-      "woolworths"
+      "woolworths",
     ],
-    "details": {
-      "notes": []
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "dandenong north": {
     "suburb name": "dandenong north",
-    "bay": "19-21",
-    "timeslot": true,
-    "timeslots": [
+    bay: "19-21",
+    timeslot: true,
+    timeslots: [
       "aldi",
       "api",
       "atlas",
@@ -871,18 +732,18 @@ const suburbsDandy = {
       "qls logistics",
       "reece 5 pallets",
       "taylors wine",
-      "woolworths"
+      "woolworths",
     ],
-    "details": {
-      "notes": []
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "dandenong south": {
     "suburb name": "dandenong south",
-    "bay": "19-21",
-    "timeslot": true,
-    "timeslots": [
+    bay: "19-21",
+    timeslot: true,
+    timeslots: [
       "aldi",
       "api",
       "atlas",
@@ -896,1743 +757,1453 @@ const suburbsDandy = {
       "qls logistics",
       "reece 5 pallets",
       "taylors wine",
-      "woolworths"
+      "woolworths",
     ],
-    "details": {
-      "notes": []
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
   "devon meadows": {
     "suburb name": "devon meadows",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "dingley": {
+  dingley: {
     "suburb name": "dingley",
-    "bay": "29a",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29a",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "dingley village": {
     "suburb name": "dingley village",
-    "bay": "29a",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29a",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "doncaster": {
+  doncaster: {
     "suburb name": "doncaster",
-    "bay": "12",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "12",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "doncaster east": {
     "suburb name": "doncaster east",
-    "bay": "12",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "12",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "donvale": {
+  donvale: {
     "suburb name": "donvale",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "doveton": {
+  doveton: {
     "suburb name": "doveton",
-    "bay": "21",
-    "timeslot": true,
-    "timeslots": [
-      "repco"
-    ],
-    "details": {
-      "notes": []
+    bay: "21",
+    timeslot: true,
+    timeslots: ["repco"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "dromana": {
+  dromana: {
     "suburb name": "dromana",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "edithvale": {
+  edithvale: {
     "suburb name": "edithvale",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "elsternwick": {
+  elsternwick: {
     "suburb name": "elsternwick",
-    "bay": "29e",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29e",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "elwood": {
+  elwood: {
     "suburb name": "elwood",
-    "bay": "29e",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29e",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "endeavor hills": {
     "suburb name": "endeavor hills",
-    "bay": "22",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "22",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "eumemmering": {
+  eumemmering: {
     "suburb name": "eumemmering",
-    "bay": "21",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "21",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "ferntree gully": {
     "suburb name": "ferntree gully",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "fingal": {
+  fingal: {
     "suburb name": "fingal",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "flinders": {
+  flinders: {
     "suburb name": "flinders",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "forest hill": {
     "suburb name": "forest hill",
-    "bay": "12",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "12",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "frankston": {
+  frankston: {
     "suburb name": "frankston",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
   "frankston north": {
     "suburb name": "frankston north",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "frankston south": {
     "suburb name": "frankston south",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "gardenvale": {
+  gardenvale: {
     "suburb name": "gardenvale",
-    "bay": "29e",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29e",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "garfield": {
+  garfield: {
     "suburb name": "garfield",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "glen huntly": {
     "suburb name": "glen huntly",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "glen waverly": {
     "suburb name": "glen waverly",
-    "bay": "11",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "glen iris": {
     "suburb name": "glen iris",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "glenferrie south": {
     "suburb name": "glenferrie south",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "greythorne": {
+  greythorne: {
     "suburb name": "greythorne",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "guys hill": {
     "suburb name": "guys hill",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "hallam": {
+  hallam: {
     "suburb name": "hallam",
-    "bay": "22",
-    "timeslot": true,
-    "timeslots": [
-      "packcentre (siddons way)"
-    ],
-    "details": {
-      "notes": []
+    bay: "22",
+    timeslot: true,
+    timeslots: ["packcentre (siddons way)"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "hampton": {
+  hampton: {
     "suburb name": "hampton",
-    "bay": "29e",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29e",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "hampton park": {
     "suburb name": "hampton park",
-    "bay": "22",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "22",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "harkaway": {
+  harkaway: {
     "suburb name": "harkaway",
-    "bay": "22",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "22",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "hastings": {
+  hastings: {
     "suburb name": "hastings",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "hawthorn": {
+  hawthorn: {
     "suburb name": "hawthorn",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "hawthorn east": {
     "suburb name": "hawthorn east",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "hawthorn west": {
     "suburb name": "hawthorn east",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "heatherton": {
+  heatherton: {
     "suburb name": "heatherton",
-    "bay": "29d",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29d",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "heathmont": {
+  heathmont: {
     "suburb name": "heathmont",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "highett": {
+  highett: {
     "suburb name": "highett",
-    "bay": "29b",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29b",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "hmas cerberus": {
     "suburb name": "hmas cerberus",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "hughesdale": {
+  hughesdale: {
     "suburb name": "hughesdale",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "huntingdale": {
+  huntingdale: {
     "suburb name": "huntingdale",
-    "bay": "8",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "8",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "junction village": {
     "suburb name": "junction village",
-    "bay": "22",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "22",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "karingal": {
+  karingal: {
     "suburb name": "karingal",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "kew": {
+  kew: {
     "suburb name": "kew",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "keysborough": {
+  keysborough: {
     "suburb name": "keysborough",
-    "bay": "18",
-    "timeslot": true,
-    "timeslots": [
-      'bam', 'clifford hallam', 'symbion', 'taylors wine'
-    ],
-    "details": {
-      "notes": []
+    bay: "18",
+    timeslot: true,
+    timeslots: ["bam", "clifford hallam", "symbion", "taylors wine"],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "kilsyth": {
+  kilsyth: {
     "suburb name": "kilsyth",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "kilsyth south": {
     "suburb name": "kilsyth south",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "knoxfield": {
+  knoxfield: {
     "suburb name": "knoxfield",
-    "bay": "5",
-    "timeslot": true,
-    "timeslots": [
-      "pfd",
-      "stihl"
-    ],
-    "details": {
-      "notes": []
+    bay: "5",
+    timeslot: true,
+    timeslots: ["pfd", "stihl"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "koo wee rup": {
     "suburb name": "koo wee rup",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "kooyong": {
+  kooyong: {
     "suburb name": "kooyong",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "lang lang": {
     "suburb name": "lang lang",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "langwarrin": {
+  langwarrin: {
     "suburb name": "langwarrin",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "lilydale": {
+  lilydale: {
     "suburb name": "lilydale",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "lynbrook": {
+  lynbrook: {
     "suburb name": "lynbrook",
-    "bay": "20",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "20",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "lyndhurst": {
+  lyndhurst: {
     "suburb name": "lyndhurst",
-    "bay": "20",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "20",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "lysterfield": {
+  lysterfield: {
     "suburb name": "lysterfield",
-    "bay": "5",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "5",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "lysterfield south": {
     "suburb name": "lysterfield south",
-    "bay": "22",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "22",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "main ridge": {
     "suburb name": "main ridge",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "malvern": {
+  malvern: {
     "suburb name": "malvern",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "malvern east": {
     "suburb name": "malvern east",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "mccrae": {
+  mccrae: {
     "suburb name": "mccrae",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "mckinnon": {
+  mckinnon: {
     "suburb name": "mckinnon",
-    "bay": "29d",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29d",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "mentone": {
+  mentone: {
     "suburb name": "mentone",
-    "bay": "29b",
-    "timeslot": true,
-    "timeslots": [
-      "mccormicks food"
-    ],
-    "details": {
-      "notes": []
+    bay: "29b",
+    timeslot: true,
+    timeslots: ["mccormicks food"],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "merricks": {
+  merricks: {
     "suburb name": "merricks",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "merricks beach": {
     "suburb name": "merricks beach",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "merridks north": {
     "suburb name": "merridks north",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "middle camberwell": {
     "suburb name": "middle camberwell",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "mitcham": {
+  mitcham: {
     "suburb name": "mitcham",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "monash uni": {
     "suburb name": "monash uni",
-    "bay": "11",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "mont albert": {
     "suburb name": "mont albert",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "montrose": {
+  montrose: {
     "suburb name": "montrose",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "moorabbin": {
+  moorabbin: {
     "suburb name": "moorabbin",
-    "bay": "29d",
-    "timeslot": true,
-    "timeslots": [
-      "costco"
-    ],
-    "details": {
-      "notes": []
+    bay: "29d",
+    timeslot: true,
+    timeslots: ["costco"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "moorolbark": {
+  moorolbark: {
     "suburb name": "moorolbark",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "mordialloc": {
+  mordialloc: {
     "suburb name": "mordialloc",
-    "bay": "29b",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29b",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "mornington": {
+  mornington: {
     "suburb name": "mornington",
-    "bay": "15",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "15",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "mount eliza": {
     "suburb name": "mount eliza",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "mount martha": {
     "suburb name": "mount martha",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "mt waverley": {
     "suburb name": "mt waverley",
-    "bay": "11",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "mulgrave": {
+  mulgrave: {
     "suburb name": "mulgrave",
-    "bay": "11",
-    "timeslot": true,
-    "timeslots": [
-      "winc",
-      "woolworths"
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: true,
+    timeslots: ["winc", "woolworths"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "murrumbeena": {
+  murrumbeena: {
     "suburb name": "murrumbeena",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "nar nar goon": {
     "suburb name": "nar nar goon",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "narre warren": {
     "suburb name": "narre warren",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "noble park": {
     "suburb name": "noble park",
-    "bay": "10",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "10",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "notting hill": {
     "suburb name": "notting hill",
-    "bay": "11",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "nunawading": {
+  nunawading: {
     "suburb name": "nunawading",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "oakleigh": {
+  oakleigh: {
     "suburb name": "oakleigh",
-    "bay": "8",
-    "timeslot": true,
-    "timeslots": [
-      "superior foods"
-    ],
-    "details": {
-      "notes": []
+    bay: "8",
+    timeslot: true,
+    timeslots: ["superior foods"],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "officer": {
+  officer: {
     "suburb name": "officer",
-    "bay": "8",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "8",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "ormond": {
+  ormond: {
     "suburb name": "ormond",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "pakenham": {
+  pakenham: {
     "suburb name": "pakenham",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
   "pakenham upper": {
     "suburb name": "pakenham upper",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "park orchards": {
     "suburb name": "park orchards",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "parkdale": {
+  parkdale: {
     "suburb name": "parkdale",
-    "bay": "29b",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29b",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "patterson lakes": {
     "suburb name": "patterson lakes",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "pearcedale": {
+  pearcedale: {
     "suburb name": "pearcedale",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "portsea": {
+  portsea: {
     "suburb name": "portsea",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "prahan": {
+  prahan: {
     "suburb name": "prahan",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "red hill": {
     "suburb name": "red hill",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "red hill south": {
     "suburb name": "red hill south",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "ringwood": {
+  ringwood: {
     "suburb name": "ringwood",
-    "bay": "7",
-    "timeslot": true,
-    "timeslots": [
-      "costco"
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: true,
+    timeslots: ["costco"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "ringwood east": {
     "suburb name": "ringwood east",
-    "bay": "7",
-    "timeslot": true,
-    "timeslots": [
-      "costco"
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: true,
+    timeslots: ["costco"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "ringwood north": {
     "suburb name": "ringwood north",
-    "bay": "7",
-    "timeslot": true,
-    "timeslots": [
-      "costco"
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: true,
+    timeslots: ["costco"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "ripponlea": {
+  ripponlea: {
     "suburb name": "ripponlea",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "rosebud": {
+  rosebud: {
     "suburb name": "rosebud",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "rowville": {
+  rowville: {
     "suburb name": "rowville",
-    "bay": "4",
-    "timeslot": true,
-    "timeslots": [
-      "bci"
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: true,
+    timeslots: ["bci"],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "rye": {
+  rye: {
     "suburb name": "rye",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "rythdale": {
+  rythdale: {
     "suburb name": "rythdale",
-    "bay": "24",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "24",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "safety beach": {
     "suburb name": "safety beach",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "sandhurst": {
+  sandhurst: {
     "suburb name": "sandhurst",
-    "bay": "15",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "15",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "sandringham": {
+  sandringham: {
     "suburb name": "sandringham",
-    "bay": "29e",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29e",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "scoresby": {
+  scoresby: {
     "suburb name": "scoresby",
-    "bay": "4",
-    "timeslot": true,
-    "timeslots": [
-      'alloys'
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: true,
+    timeslots: ["alloys"],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "seaford": {
+  seaford: {
     "suburb name": "seaford",
-    "bay": "16",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "16",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "shoreham": {
+  shoreham: {
     "suburb name": "shoreham",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "skye": {
+  skye: {
     "suburb name": "skye",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "somers": {
+  somers: {
     "suburb name": "somers",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "somerville": {
+  somerville: {
     "suburb name": "somerville",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "sorrento": {
+  sorrento: {
     "suburb name": "sorrento",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "springvale": {
+  springvale: {
     "suburb name": "springvale",
-    "bay": "10",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "10",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "st andrews beach": {
     "suburb name": "st andrews beach",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "surrey hills": {
     "suburb name": "surrey hills",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "surrey hills north": {
     "suburb name": "surrey hills north",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "syndal": {
+  syndal: {
     "suburb name": "syndal",
-    "bay": "11",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "tecoma": {
+  tecoma: {
     "suburb name": "tecoma",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "templestowe lower": {
     "suburb name": "templestowe lower",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "the basin": {
     "suburb name": "the basin",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "tooradin": {
+  tooradin: {
     "suburb name": "tooradin",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "toorak": {
+  toorak: {
     "suburb name": "toorak",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "tooronga": {
+  tooronga: {
     "suburb name": "tooronga",
-    "bay": "2",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "2",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "tootgarook": {
+  tootgarook: {
     "suburb name": "tootgarook",
-    "bay": "13",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "13",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "tuerong": {
+  tuerong: {
     "suburb name": "tuerong",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "tyabb": {
+  tyabb: {
     "suburb name": "tyabb",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "upwey": {
+  upwey: {
     "suburb name": "upwey",
-    "bay": "4",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "tynong": {
+  tynong: {
     "suburb name": "tynong",
-    "bay": "14",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "14",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "vermont": {
+  vermont: {
     "suburb name": "vermont",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": true
+    bunnings: true,
   },
-  "wantirna": {
+  wantirna: {
     "suburb name": "wantirna",
-    "bay": "5",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "5",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "wantirna south": {
     "suburb name": "wantirna south",
-    "bay": "5",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "5",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "warneet": {
+  warneet: {
     "suburb name": "warneet",
-    "bay": "23",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "23",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "warrandyte": {
+  warrandyte: {
     "suburb name": "warrandyte",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "warrandyte north": {
     "suburb name": "warrandyte north",
-    "bay": "7",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "7",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "warranwood": {
+  warranwood: {
     "suburb name": "warranwood",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "waterways": {
+  waterways: {
     "suburb name": "waterways",
-    "bay": "29c",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "29c",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "wheelers hill": {
     "suburb name": "wheelers hill",
-    "bay": "11",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "11",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
-  "windsor": {
+  windsor: {
     "suburb name": "windsor",
-    "bay": "1",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "1",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
+    bunnings: false,
   },
   "wonga park": {
     "suburb name": "wonga park",
-    "bay": "6",
-    "timeslot": false,
-    "timeslots": [
-      null
-    ],
-    "details": {
-      "notes": []
+    bay: "6",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
     },
-    "bunnings": false
-  }
+    bunnings: false,
+  },
 };
 
 const suburbs = [
@@ -2858,61 +2429,58 @@ const suburbs = [
   "wonga park",
 ];
 
-const resultBox = document.querySelector('.result-box');
-const inputBox = document.getElementById('input-box');
-const timeslots = document.getElementById('timeslots');
-const refreshIcon = document.querySelector('.fa-sharp')
+const resultBox = document.querySelector(".result-box");
+const inputBox = document.getElementById("input-box");
+const timeslots = document.getElementById("timeslots");
+const refreshIcon = document.querySelector(".fa-sharp");
 let activeIndex = -1;
 
-
-refreshIcon.addEventListener('click', ()=> {
+refreshIcon.addEventListener("click", () => {
   window.location.reload();
-})
+});
 
-inputBox.addEventListener('click', e=>{
-  e.preventDefault()
-  if (inputBox.value === ''){
-    timeslots.innerHTML = '';
+inputBox.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (inputBox.value === "") {
+    timeslots.innerHTML = "";
   }
-})
+});
 
 inputBox.onkeyup = (e) => {
   console.log(e.key);
-  if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-    return
+  if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+    return;
   }
   let result = [];
   let input = inputBox.value.toLowerCase();
   if (input.length) {
     result = suburbs.filter((keyword) => {
-      return keyword.toLowerCase().startsWith(input)
-    })
+      return keyword.toLowerCase().startsWith(input);
+    });
     console.log(result);
   }
-  displayList(result)
+  displayList(result);
 
   if (!result.length) {
-    resultBox.innerHTML = '';
+    resultBox.innerHTML = "";
   }
-
-}
+};
 
 function displayList(result) {
-
   const content = result.map((listItem) => {
-    let bunnings = '';
-    let timeslot = '';
-    let bay = '';
+    let bunnings = "";
+    let timeslot = "";
+    let bay = "";
 
-      if (suburbsDandy[listItem].bunnings){
-        bunnings = '<li><i class="fa-solid fa-b"></i></li>'
-      }
-      if (suburbsDandy[listItem].timeslot){
-        timeslot = '<li><i class="fa-solid fa-t"></i></li>'
-      }
-      if (suburbsDandy[listItem].bay){
-        bay = '<li class=bay>'+ suburbsDandy[listItem].bay + '</li>'
-      }
+    if (suburbsDandy[listItem].bunnings) {
+      bunnings = '<li><i class="fa-solid fa-b"></i></li>';
+    }
+    if (suburbsDandy[listItem].timeslot) {
+      timeslot = '<li><i class="fa-solid fa-t"></i></li>';
+    }
+    if (suburbsDandy[listItem].bay) {
+      bay = "<li class=bay>" + suburbsDandy[listItem].bay + "</li>";
+    }
 
     return `<div class="result-item">
     <li onclick=selectInput(this) >${listItem}</li>
@@ -2922,45 +2490,42 @@ function displayList(result) {
       ${timeslot}
       ${bunnings}
     </div>
-  </div>`
-  })
-  resultBox.innerHTML = `<ul> ${content.join('')} </ul>`
+  </div>`;
+  });
+  resultBox.innerHTML = `<ul> ${content.join("")} </ul>`;
 }
 
-window.addEventListener('click' ,e => {
-  if (e.target.className === 'result-item'){
+window.addEventListener("click", (e) => {
+  if (e.target.className === "result-item") {
     console.log(e.target.childNodes[1].click());
   }
-})
+});
 
 function selectInput(list) {
-
   inputBox.value = list.innerHTML;
   let suburb = inputBox.value.toLowerCase();
-  renderTimeslots(suburb)
+  renderTimeslots(suburb);
 }
 
-function renderTimeslots(suburb){
+function renderTimeslots(suburb) {
   const res = suburbsDandy[suburb].timeslots;
-    resultBox.innerHTML = '';
-    console.log(res[0]);
+  resultBox.innerHTML = "";
+  console.log(res[0]);
 
-    if (!res[0]){
-      res[0] = 'No timeslots for this area'
-    }else  if (res[0] !== 'TIMESLOTS'){
-        res.unshift('TIMESLOTS')
-    }
-    console.log(res);
-    let tSlots = res.map((el)=> {
-      let capitalizeEl = `${el[0].toUpperCase()}${el.slice(1)}`
-      return `<li>${capitalizeEl}</li>`
-    })
-    timeslots.innerHTML = `<ul> ${tSlots.join('')}</ul>`;
-    inputBox.value = '';
-    activeIndex = -1
+  if (!res[0]) {
+    res[0] = "No timeslots for this area";
+  } else if (res[0] !== "TIMESLOTS") {
+    res.unshift("TIMESLOTS");
+  }
+  console.log(res);
+  let tSlots = res.map((el) => {
+    let capitalizeEl = `${el[0].toUpperCase()}${el.slice(1)}`;
+    return `<li>${capitalizeEl}</li>`;
+  });
+  timeslots.innerHTML = `<ul> ${tSlots.join("")}</ul>`;
+  inputBox.value = "";
+  activeIndex = -1;
 }
-
-
 
 const setActiveIndex = (index) => {
   const items = resultBox.getElementsByClassName("result-item");
@@ -2972,35 +2537,33 @@ const setActiveIndex = (index) => {
   }
   activeIndex = index;
   Array.from(items).forEach((item) => {
-    item.classList.remove('active');
+    item.classList.remove("active");
   });
-  items[activeIndex].classList.add('active');
+  items[activeIndex].classList.add("active");
 };
 
-
-
-inputBox.addEventListener('keydown', (event) => {
+inputBox.addEventListener("keydown", (event) => {
   const items = resultBox.getElementsByClassName("result-item");
   if (items.length > 0) {
     switch (event.key) {
-      case 'ArrowUp':
+      case "ArrowUp":
         event.preventDefault();
         setActiveIndex(activeIndex - 1);
         break;
-      case 'ArrowDown':
+      case "ArrowDown":
         event.preventDefault();
         setActiveIndex(activeIndex + 1);
         break;
-      case 'Enter':
+      case "Enter":
         event.preventDefault();
 
-        inputBox.value = items[activeIndex].textContent
+        inputBox.value = items[activeIndex].textContent;
         let input = inputBox.value.toLowerCase();
-        let suburb = input.trim()
-                         .slice(0,input.trim()
-                         .lastIndexOf(' '))
-                         .trim()
-        renderTimeslots(suburb)
+        let suburb = input
+          .trim()
+          .slice(0, input.trim().lastIndexOf(" "))
+          .trim();
+        renderTimeslots(suburb);
         break;
     }
   }

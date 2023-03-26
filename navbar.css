@@ -1,4 +1,5 @@
 /* navbar start */
+
 .nav ul {
   list-style-type: none;
   margin: auto;
@@ -41,5 +42,6 @@
 ul li .nav-items {
   background: rgb(52, 42, 52);
   color: limegreen;
+  border-right: 1px solid rgb(124, 121, 121);
 }
 /* navbar end */
