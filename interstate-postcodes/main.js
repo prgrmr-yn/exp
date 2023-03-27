@@ -39,7 +39,7 @@ refreshIcon.addEventListener("click", () => {
 function getArea(postcode) {
   for (const area in postcodeAreas) {
     if (postcodeAreas[area].includes(postcode)) {
-      return area;
+      return area.toUpperCase();
     }
   }
   return "Unknown area";
