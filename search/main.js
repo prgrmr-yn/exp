@@ -167,7 +167,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   "bayswater north": {
     "suburb name": "bayswater north",
@@ -177,7 +177,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   beaconsfield: {
     "suburb name": "beaconsfield",
@@ -952,7 +952,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   "frankston south": {
     "suburb name": "frankston south",
@@ -1492,7 +1492,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   moorolbark: {
     "suburb name": "moorolbark",
@@ -1592,7 +1592,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   "noble park": {
     "suburb name": "noble park",
@@ -1612,7 +1612,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   nunawading: {
     "suburb name": "nunawading",
@@ -1762,7 +1762,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   "ringwood east": {
     "suburb name": "ringwood east",
@@ -1942,7 +1942,7 @@ const suburbsDandy = {
     details: {
       notes: [],
     },
-    bunnings: false,
+    bunnings: true,
   },
   "st andrews beach": {
     "suburb name": "st andrews beach",
@@ -2436,7 +2436,8 @@ const refreshIcon = document.querySelector(".fa-sharp");
 let activeIndex = -1;
 
 refreshIcon.addEventListener("click", () => {
-  window.location.reload();
+  inputBox.value = ''
+  inputBox.focus()
 });
 
 inputBox.addEventListener("click", (e) => {
@@ -2500,6 +2501,12 @@ window.addEventListener("click", (e) => {
     console.log(e.target.childNodes[1].click());
   }
 });
+
+window.addEventListener('keyup', e => {
+  if (e.key === '/') {
+    inputBox.focus()
+  }
+})
 
 function selectInput(list) {
   inputBox.value = list.innerHTML;
