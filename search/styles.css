@@ -47,7 +47,7 @@ button .fa-solid {
   font-size: 22px;
   cursor: pointer;
   /* background-color: #f1f1f1; */
-  padding: 15px;
+  margin-right: 5px;
 }
 
 ::placeholder {
