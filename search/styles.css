@@ -15,6 +15,7 @@ body {
   align-items: center;
   padding-left: 20px;
   height: 50px;
+  justify-content: space-between;
 }
 
 .search-box {
@@ -27,7 +28,7 @@ body {
 }
 
 .row > input{
-  flex:1;
+  /* flex:1; */
   height:50px;
   background: transparent;
   border:0;
@@ -36,7 +37,7 @@ body {
   color: #333;
 }
 
-button {
+.row button {
   background-color: transparent;
   border: 0;
 }
@@ -47,7 +48,8 @@ button .fa-solid {
   font-size: 22px;
   cursor: pointer;
   /* background-color: #f1f1f1; */
-  margin-right: 5px;
+  border-left: 1px solid #000;
+  padding: 7px;
 }
 
 ::placeholder {

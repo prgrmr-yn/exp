@@ -1,8 +1,11 @@
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
+const refreshIcon = document.querySelector(".fa-solid");
+
 
 window.addEventListener("keyup", (e) => {
-  if (e.key === "/") {
+  if (e.key === "\\") {
+    inputBox.value = '';
     inputBox.focus();
   }
 });
@@ -3632,7 +3635,6 @@ const postcodeAreas = {
   // Add more areas and postcodes as needed
 };
 
-const refreshIcon = document.querySelector(".fa-sharp");
 
 refreshIcon.addEventListener("click", () => {
   inputBox.value = "";
