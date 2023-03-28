@@ -201,7 +201,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "bayswater north": {
     "suburb name": "bayswater north",
@@ -213,7 +213,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "beaconsfield": {
     "suburb name": "beaconsfield",
@@ -777,7 +777,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "croydon hills": {
     "suburb name": "croydon hills",
@@ -829,7 +829,7 @@
   },
   "dandenong": {
     "suburb name": "dandenong",
-    "bay": "19, 20, 21",
+    "bay": "19-21",
     "timeslot": true,
     "timeslots": [
       "aldi",
@@ -854,10 +854,23 @@
   },
   "dandenong north": {
     "suburb name": "dandenong north",
-    "bay": "19, 20, 21",
-    "timeslot": false,
+    "bay": "19-21",
+    "timeslot": true,
     "timeslots": [
-      null
+      "aldi",
+      "api",
+      "atlas",
+      "baby bunting",
+      "bam",
+      "bunzyl",
+      "cozmax nbt",
+      "keeki",
+      "kogan",
+      "korimco",
+      "qls logistics",
+      "reece 5 pallets",
+      "taylors wine",
+      "woolworths"
     ],
     "details": {
       "notes": []
@@ -866,13 +879,28 @@
   },
   "dandenong south": {
     "suburb name": "dandenong south",
-    "bay": "19, 20, 21",
+    "bay": "19-21",
     "timeslot": true,
-    "timeslots": [],
+    "timeslots": [
+      "aldi",
+      "api",
+      "atlas",
+      "baby bunting",
+      "bam",
+      "bunzyl",
+      "cozmax nbt",
+      "keeki",
+      "kogan",
+      "korimco",
+      "qls logistics",
+      "reece 5 pallets",
+      "taylors wine",
+      "woolworths"
+    ],
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "devon meadows": {
     "suburb name": "devon meadows",
@@ -1030,8 +1058,8 @@
     },
     "bunnings": false
   },
-  "fentree gully": {
-    "suburb name": "fentree gully",
+  "ferntree gully": {
+    "suburb name": "ferntree gully",
     "bay": "4",
     "timeslot": false,
     "timeslots": [
@@ -1100,7 +1128,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "frankston south": {
     "suburb name": "frankston south",
@@ -1294,6 +1322,18 @@
     },
     "bunnings": false
   },
+  "hawthorn west": {
+    "suburb name": "hawthorn east",
+    "bay": "2",
+    "timeslot": false,
+    "timeslots": [
+      null
+    ],
+    "details": {
+      "notes": []
+    },
+    "bunnings": false
+  },
   "heatherton": {
     "suburb name": "heatherton",
     "bay": "29d",
@@ -1405,9 +1445,12 @@
   "keysborough": {
     "suburb name": "keysborough",
     "bay": "18",
-    "timeslot": false,
+    "timeslot": true,
     "timeslots": [
-      null
+      "bam",
+      "clifford hallam",
+      "symbion",
+      "taylors wine"
     ],
     "details": {
       "notes": []
@@ -1629,7 +1672,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "merricks": {
     "suburb name": "merricks",
@@ -1737,7 +1780,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "moorolbark": {
     "suburb name": "moorolbark",
@@ -1858,7 +1901,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "noble park": {
     "suburb name": "noble park",
@@ -1882,7 +1925,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "nunawading": {
     "suburb name": "nunawading",
@@ -2062,7 +2105,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "ringwood east": {
     "suburb name": "ringwood east",
@@ -2110,7 +2153,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "rowville": {
     "suburb name": "rowville",
@@ -2187,9 +2230,9 @@
   "scoresby": {
     "suburb name": "scoresby",
     "bay": "4",
-    "timeslot": false,
+    "timeslot": true,
     "timeslots": [
-      null
+      "alloys"
     ],
     "details": {
       "notes": []
@@ -2278,7 +2321,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "st andrews beach": {
     "suburb name": "st andrews beach",
@@ -2470,7 +2513,7 @@
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "wantirna": {
     "suburb name": "wantirna",

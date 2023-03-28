@@ -201,7 +201,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "bayswater north": {
     "suburb name": "bayswater north",
@@ -213,7 +213,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "beaconsfield": {
     "suburb name": "beaconsfield",
@@ -1058,8 +1058,8 @@ export const suburbsDandy = {
     },
     "bunnings": false
   },
-  "fentree gully": {
-    "suburb name": "fentree gully",
+  "ferntree gully": {
+    "suburb name": "ferntree gully",
     "bay": "4",
     "timeslot": false,
     "timeslots": [
@@ -1128,7 +1128,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "frankston south": {
     "suburb name": "frankston south",
@@ -1322,6 +1322,18 @@ export const suburbsDandy = {
     },
     "bunnings": false
   },
+  "hawthorn west": {
+    "suburb name": "hawthorn east",
+    "bay": "2",
+    "timeslot": false,
+    "timeslots": [
+      null
+    ],
+    "details": {
+      "notes": []
+    },
+    "bunnings": false
+  },
   "heatherton": {
     "suburb name": "heatherton",
     "bay": "29d",
@@ -1435,7 +1447,10 @@ export const suburbsDandy = {
     "bay": "18",
     "timeslot": true,
     "timeslots": [
-      'bam', 'clifford hallam', 'symbion', 'taylors wine'
+      "bam",
+      "clifford hallam",
+      "symbion",
+      "taylors wine"
     ],
     "details": {
       "notes": []
@@ -1765,7 +1780,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "moorolbark": {
     "suburb name": "moorolbark",
@@ -1886,7 +1901,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "noble park": {
     "suburb name": "noble park",
@@ -1910,7 +1925,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "nunawading": {
     "suburb name": "nunawading",
@@ -2090,7 +2105,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "ringwood east": {
     "suburb name": "ringwood east",
@@ -2217,7 +2232,7 @@ export const suburbsDandy = {
     "bay": "4",
     "timeslot": true,
     "timeslots": [
-      'alloys'
+      "alloys"
     ],
     "details": {
       "notes": []
@@ -2306,7 +2321,7 @@ export const suburbsDandy = {
     "details": {
       "notes": []
     },
-    "bunnings": false
+    "bunnings": true
   },
   "st andrews beach": {
     "suburb name": "st andrews beach",
@@ -2732,7 +2747,6 @@ const suburbs = [
   "hampton park",
   "harkaway",
   "hastings",
-  "hawthorn",
   "hawthorn",
   "hawthorn east",
   "hawthorn west",

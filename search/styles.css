@@ -28,8 +28,8 @@ body {
 
 
 
-input{
-  flex:1;
+.row > input{
+  flex:0.9;
   height:50px;
   background: transparent;
   border:0;
