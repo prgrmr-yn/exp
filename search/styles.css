@@ -27,7 +27,7 @@ body {
 }
 
 .row > input{
-  flex:0.8;
+  flex:1;
   height:50px;
   background: transparent;
   border:0;
@@ -42,7 +42,7 @@ button {
 }
 
 button .fa-solid {
-  width: 45px;
+  /* width: 1%; */
   color: #555;
   font-size: 22px;
   cursor: pointer;
