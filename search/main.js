@@ -2432,12 +2432,12 @@ const suburbs = [
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
 const timeslots = document.getElementById("timeslots");
-const refreshIcon = document.querySelector(".fa-sharp");
+const refreshIcon = document.querySelector(".fa-solid");
 let activeIndex = -1;
 
 refreshIcon.addEventListener("click", () => {
-  inputBox.value = ''
-  inputBox.focus()
+  inputBox.value = "";
+  inputBox.focus();
 });
 
 inputBox.addEventListener("click", (e) => {
@@ -2502,11 +2502,12 @@ window.addEventListener("click", (e) => {
   }
 });
 
-window.addEventListener('keyup', e => {
-  if (e.key === '/') {
-    inputBox.focus()
+window.addEventListener("keyup", (e) => {
+  if (e.key === "\\") {
+    inputBox.focus();
+    inputBox.value = "";
   }
-})
+});
 
 function selectInput(list) {
   inputBox.value = list.innerHTML;
