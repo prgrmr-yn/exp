@@ -1,6 +1,6 @@
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
-const refreshIcon = document.querySelector(".fa-solid");
+const refreshIcon = document.querySelector(".solidd");
 
 
 window.addEventListener("keyup", (e) => {
