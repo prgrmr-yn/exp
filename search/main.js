@@ -2432,7 +2432,7 @@ const suburbs = [
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
 const timeslots = document.getElementById("timeslots");
-const refreshIcon = document.querySelector(".fa-solid");
+const refreshIcon = document.querySelector(".solidd");
 let activeIndex = -1;
 
 refreshIcon.addEventListener("click", () => {
