@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pallet Count App</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Pallet Count App</h1>
+
+  <label for="truckNumber">Truck Number (Optional):</label>
+  <input type="text" id="truckNumber" placeholder="Enter truck number">
+
+  <div class="column" id="chepColumn">
+      <h2>Chep</h2>
+      <button id="chepMinus">-</button>
+      <span class="count" id="chepCount">0</span>
+      <button id="chepPlus">+</button>
+      <button id="chepReset">Reset</button>
+  </div>
+
+  <div class="column" id="loscamColumn">
+      <h2>Loscam</h2>
+      <button id="loscamMinus">-</button>
+      <span class="count" id="loscamCount">0</span>
+      <button id="loscamPlus">+</button>
+      <button id="loscamReset">Reset</button>
+  </div>
+
+  <button id="saveButton">Save</button>
+
+  <table id="dataTable">
+      <thead>
+          <tr>
+              <th>Truck Number</th>
+              <th>CHEP Count</th>
+              <th>Loscam Count</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- Saved data will be added here dynamically -->
+      </tbody>
+  </table>
+
+<script src="./main.js"></script>
+</body>
+</html>
