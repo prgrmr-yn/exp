@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Task App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css">
+
+</head>
+<body>
+    <h1>Logistics Task App</h1>
+    <form id="taskForm">
+        <label for="taskType">Task Type:</label>
+        <input type="radio" name="taskType" value="Inbound"> Inbound
+        <input type="radio" name="taskType" value="Outbound"> Outbound
+        <br><br>
+        <label for="truckNumber">Truck Number:</label>
+        <input type="text" id="truckNumber" name="truckNumber">
+        <br><br>
+        <label for="trailerA">Trailer A:</label>
+        <input type="text" id="trailerA" name="trailerA">
+        <br><br>
+        <label for="trailerB">Trailer B:</label>
+        <input type="text" id="trailerB" name="trailerB">
+        <br><br>
+        <label for="driverName">Driver Name:</label>
+        <input type="text" id="driverName" name="driverName">
+        <br><br>
+        <label for="chep">CHEP:</label>
+        <input type="number" id="chep" name="chep">
+        <br><br>
+        <label for="loscam">LOSCAM:</label>
+        <input type="number" id="loscam" name="loscam">
+        <br><br>
+        <button type="submit" data-mode="add">Add Task</button>
+    </form>
+    <hr>
+  <h2>Pallets List</h2>
+<button id="printButton">Print</button> <!-- Add the Print button here -->
+<ul id="taskList"></ul>
+    <ul id="taskList"></ul>
+<script src="./script.js"></script>
+</body>
+</html>
