@@ -7,12 +7,22 @@
     <title>Logistics Task App</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./print.css">
+    <link rel="stylesheet" href="../navbar.css">
     <link rel="stylesheet" href="../track-pallets/style.css">
     <link rel="stylesheet" href="../track-pallets/print.css">
 
 </head>
 <body>
-    <h1>Logistics Task App</h1>
+  <div class="nav">
+    <ul>
+      <li><a href="../search/index.html">Yexp</a></li>
+      <div>
+        <li><a class="nav-items" href="../search/index.html">Suburb finder</a></li>
+        <li><a class="nav-items" href="../track-pallets/index.html">Driver pallets</a></li>
+        <li><a class="nav-items" href="../pallet/index.html">Loscam cheps</a></li>
+      </ul>
+   </div>
+    <h1>Pallet Count App</h1>
     <form id="taskForm">
         <label for="taskType">Task Type:</label>
         <input type="radio" name="taskType" value="Inbound"> Inbound
@@ -45,5 +55,6 @@
     <ul id="taskList"></ul>
     <p>Suburb list updated 4 june 2023</p>
 <script src="track-pallets/script.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
