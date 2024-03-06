@@ -41,7 +41,7 @@ const suburbsDandy = {
   },
   aspendale: {
     "suburb name": "aspendale",
-    bay: "29c",
+    bay: "29d",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -51,7 +51,7 @@ const suburbsDandy = {
   },
   "aspendale garden": {
     "suburb name": "aspendale garden",
-    bay: "29c",
+    bay: "29d",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -191,7 +191,7 @@ const suburbsDandy = {
   },
   beaumaris: {
     "suburb name": "beaumaris",
-    bay: "29c",
+    bay: "29d",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -231,7 +231,7 @@ const suburbsDandy = {
   },
   bentleigh: {
     "suburb name": "bentleigh",
-    bay: "29d",
+    bay: "29e",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -241,7 +241,7 @@ const suburbsDandy = {
   },
   "bentleigh east": {
     "suburb name": "bentleigh east",
-    bay: "29d",
+    bay: "29e",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -261,7 +261,7 @@ const suburbsDandy = {
   },
   bittern: {
     "suburb name": "bittern",
-    bay: "16",
+    bay: "14",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -271,7 +271,7 @@ const suburbsDandy = {
   },
   "black rock": {
     "suburb name": "black rock",
-    bay: "29e",
+    bay: "29b",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -381,7 +381,7 @@ const suburbsDandy = {
   },
   brighton: {
     "suburb name": "brighton",
-    bay: "29e",
+    bay: "29b",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -390,7 +390,7 @@ const suburbsDandy = {
     bunnings: false,
   },
   bulleeen: {
-    "suburb name": "bulleeen",
+    "suburb name": "bulleen",
     bay: "2",
     timeslot: false,
     timeslots: [null],
@@ -501,7 +501,7 @@ const suburbsDandy = {
   },
   carnegie: {
     "suburb name": "carnegie",
-    bay: "29d",
+    bay: "29e",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -531,7 +531,7 @@ const suburbsDandy = {
   },
   caulfield: {
     "suburb name": "caulfield",
-    bay: "29d",
+    bay: "29e",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -551,7 +551,7 @@ const suburbsDandy = {
   },
   chelsea: {
     "suburb name": "chelsea",
-    bay: "29c",
+    bay: "29d",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -561,7 +561,7 @@ const suburbsDandy = {
   },
   "chelsea heights": {
     "suburb name": "chelsea heights",
-    bay: "29c",
+    bay: "29d",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -571,7 +571,7 @@ const suburbsDandy = {
   },
   cheltenham: {
     "suburb name": "cheltenham",
-    bay: "29b",
+    bay: "29c",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -679,19 +679,9 @@ const suburbsDandy = {
     },
     bunnings: true,
   },
-  dalmore: {
-    "suburb name": "dalmore",
-    bay: "23",
-    timeslot: false,
-    timeslots: [null],
-    details: {
-      notes: [],
-    },
-    bunnings: false,
-  },
   dandenong: {
     "suburb name": "dandenong",
-    bay: "19-21",
+    bay: "19",
     timeslot: true,
     timeslots: [
       "aldi",
@@ -716,7 +706,7 @@ const suburbsDandy = {
   },
   "dandenong north": {
     "suburb name": "dandenong north",
-    bay: "19-21",
+    bay: "20",
     timeslot: true,
     timeslots: [
       "aldi",
@@ -741,7 +731,7 @@ const suburbsDandy = {
   },
   "dandenong south": {
     "suburb name": "dandenong south",
-    bay: "19-21",
+    bay: "21",
     timeslot: true,
     timeslots: [
       "aldi",
@@ -846,7 +836,7 @@ const suburbsDandy = {
   },
   edithvale: {
     "suburb name": "edithvale",
-    bay: "29c",
+    bay: "29b",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -866,7 +856,7 @@ const suburbsDandy = {
   },
   elwood: {
     "suburb name": "elwood",
-    bay: "29e",
+    bay: "29b",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -874,7 +864,7 @@ const suburbsDandy = {
     },
     bunnings: false,
   },
-  "endeavor hills": {
+  "endeavour hills": {
     "suburb name": "endeavor hills",
     bay: "22",
     timeslot: false,
@@ -966,7 +956,7 @@ const suburbsDandy = {
   },
   gardenvale: {
     "suburb name": "gardenvale",
-    bay: "29e",
+    bay: "29b",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1056,7 +1046,7 @@ const suburbsDandy = {
   },
   hampton: {
     "suburb name": "hampton",
-    bay: "29e",
+    bay: "29b",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1074,7 +1064,7 @@ const suburbsDandy = {
     },
     bunnings: false,
   },
-  harkaway: {
+   "harkaway": {
     "suburb name": "harkaway",
     bay: "22",
     timeslot: false,
@@ -1126,7 +1116,7 @@ const suburbsDandy = {
   },
   heatherton: {
     "suburb name": "heatherton",
-    bay: "29d",
+    bay: "29c",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1146,7 +1136,7 @@ const suburbsDandy = {
   },
   highett: {
     "suburb name": "highett",
-    bay: "29b",
+    bay: "29c",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1216,7 +1206,7 @@ const suburbsDandy = {
   },
   keysborough: {
     "suburb name": "keysborough",
-    bay: "18",
+    bay: "29a",
     timeslot: true,
     timeslots: ["bam", "clifford hallam", "symbion", "taylors wine"],
     details: {
@@ -1286,7 +1276,7 @@ const suburbsDandy = {
   },
   langwarrin: {
     "suburb name": "langwarrin",
-    bay: "24",
+    bay: "16",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1326,7 +1316,7 @@ const suburbsDandy = {
   },
   lysterfield: {
     "suburb name": "lysterfield",
-    bay: "5",
+    bay: "22",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1386,7 +1376,7 @@ const suburbsDandy = {
   },
   mckinnon: {
     "suburb name": "mckinnon",
-    bay: "29d",
+    bay: "29e",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1396,7 +1386,7 @@ const suburbsDandy = {
   },
   mentone: {
     "suburb name": "mentone",
-    bay: "29b",
+    bay: "29a",
     timeslot: true,
     timeslots: ["mccormicks food"],
     details: {
@@ -1424,8 +1414,8 @@ const suburbsDandy = {
     },
     bunnings: false,
   },
-  "merridks north": {
-    "suburb name": "merridks north",
+  "merricks north": {
+    "suburb name": "merricks north",
     bay: "13",
     timeslot: false,
     timeslots: [null],
@@ -1486,7 +1476,7 @@ const suburbsDandy = {
   },
   moorabbin: {
     "suburb name": "moorabbin",
-    bay: "29d",
+    bay: "29c",
     timeslot: true,
     timeslots: ["costco"],
     details: {
@@ -1506,7 +1496,7 @@ const suburbsDandy = {
   },
   mordialloc: {
     "suburb name": "mordialloc",
-    bay: "29b",
+    bay: "29a",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1516,7 +1506,7 @@ const suburbsDandy = {
   },
   mornington: {
     "suburb name": "mornington",
-    bay: "15",
+    bay: "14",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1636,7 +1626,7 @@ const suburbsDandy = {
   },
   officer: {
     "suburb name": "officer",
-    bay: "8",
+    bay: "24",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1646,7 +1636,7 @@ const suburbsDandy = {
   },
   ormond: {
     "suburb name": "ormond",
-    bay: "24",
+    bay: "29e",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1686,7 +1676,7 @@ const suburbsDandy = {
   },
   parkdale: {
     "suburb name": "parkdale",
-    bay: "29b",
+    bay: "29a",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1696,7 +1686,7 @@ const suburbsDandy = {
   },
   "patterson lakes": {
     "suburb name": "patterson lakes",
-    bay: "29c",
+    bay: "29d",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1856,7 +1846,7 @@ const suburbsDandy = {
   },
   sandringham: {
     "suburb name": "sandringham",
-    bay: "29e",
+    bay: "29b",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -1987,6 +1977,16 @@ const suburbsDandy = {
   tecoma: {
     "suburb name": "tecoma",
     bay: "4",
+    timeslot: false,
+    timeslots: [null],
+    details: {
+      notes: [],
+    },
+    bunnings: false,
+  },
+  "templestowe": {
+    "suburb name": "templestowe",
+    bay: "2",
     timeslot: false,
     timeslots: [null],
     details: {
@@ -2166,7 +2166,7 @@ const suburbsDandy = {
   },
   waterways: {
     "suburb name": "waterways",
-    bay: "29c",
+    bay: "29d",
     timeslot: false,
     timeslots: [null],
     details: {
